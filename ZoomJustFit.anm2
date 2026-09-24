@@ -1,5 +1,5 @@
 --label:基本効果
---track@mode:モード,1,3,1,1
+--select@mode:Mode=1,Fit=1,Fill=2,Stretch=3
 
 local w, h = obj.getpixel()
 local screenW, screenH = obj.screen_w, obj.screen_h
